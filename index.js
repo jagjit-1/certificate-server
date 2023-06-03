@@ -9,7 +9,7 @@ const { startJob } = require('./googleSlides');
 app.get('/', (req, res) => {
   res.send("hi there")
 })
-
+const temp = "";
 app.post('/generateCertificate', async (req, res) => {
   const formData = req.body;
 
